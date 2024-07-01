@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomer Husain - Live Wedding Painter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nomer Husain</h1>
+        <p>Live Wedding Painter and Art Instructor</p>
+    </header>
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of my live wedding paintings:</p>
+        <!-- Add images of your paintings here -->
+        <img src="painting1.jpg" alt="Live Wedding Painting 1">
+        <img src="painting2.jpg" alt="Live Wedding Painting 2">
+        <img src="painting3.jpg" alt="Live Wedding Painting 3">
+    </section>
+    <section class="description">
+        <h2>About My Work</h2>
+        <p>I create beautiful, lasting memories of your special day through live wedding painting. My work captures the essence and emotion of your wedding in real-time, providing you with a unique and personal piece of art to cherish forever.</p>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="mailto:nomerhusain@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <section class="booking">
+        <h2>Book Me</h2>
+        <p>To book me for your wedding, please follow these steps:</p>
+        <ol>
+            <li>Contact me through the form above or via email.</li>
+            <li>We will discuss your wedding details and confirm availability.</li>
+            <li>Select a date and finalize the booking.</li>
+        </ol>
+    </section>
+    <section class="social-media">
+        <h2>Follow Me</h2>
+        <p>You can follow my work on social media:</p>
+        <a href="https://facebook.com/yourprofile">Facebook</a>
+        <a href="https://instagram.com/yourprofile">Instagram</a>
+        <a href="https://twitter.com/yourprofile">Twitter</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nomer Husain. All rights reserved.</p>
+    </footer>
+</body>
+</html>
